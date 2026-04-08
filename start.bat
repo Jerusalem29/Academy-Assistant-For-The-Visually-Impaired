@@ -1,0 +1,3 @@
+@echo off
+echo Starting Academic Assistant Development Server...
+npm start

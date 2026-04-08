@@ -1,0 +1,58 @@
+{
+  "total_samples": 9,
+  "languages": {
+    "Afaan Oromo": {
+      "code": "af",
+      "count": 3,
+      "percentage": 33.33333333333333
+    },
+    "Amharic": {
+      "code": "am",
+      "count": 3,
+      "percentage": 33.33333333333333
+    },
+    "English": {
+      "code": "en",
+      "count": 3,
+      "percentage": 33.33333333333333
+    }
+  },
+  "samples": [
+    [
+      "Afaan Oromo",
+      "Akkam badi"
+    ],
+    [
+      "Afaan Oromo",
+      "Galatoomi"
+    ],
+    [
+      "Afaan Oromo",
+      "Fayya"
+    ],
+    [
+      "Amharic",
+      "ሰላም"
+    ],
+    [
+      "Amharic",
+      "አመሰግክም"
+    ],
+    [
+      "Amharic",
+      "ደማይ"
+    ],
+    [
+      "English",
+      "Hello world"
+    ],
+    [
+      "English",
+      "How are you"
+    ],
+    [
+      "English",
+      "Goodbye everyone"
+    ]
+  ]
+}

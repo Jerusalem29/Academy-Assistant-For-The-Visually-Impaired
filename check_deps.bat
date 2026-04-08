@@ -1,0 +1,3 @@
+@echo off
+echo Checking datasets library for torchcodec...
+C:/users/hp/appdata/local/programs/python/python310/python.exe -c "import datasets; print([x for x in dir(datasets) if 'torchcodec' in x])"

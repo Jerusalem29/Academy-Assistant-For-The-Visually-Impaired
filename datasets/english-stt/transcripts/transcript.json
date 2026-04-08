@@ -1,0 +1,14 @@
+[
+  {
+    "audio": "sample1.wav",
+    "text": "Hello world"
+  },
+  {
+    "audio": "sample2.wav",
+    "text": "How are you"
+  },
+  {
+    "audio": "sample3.wav",
+    "text": "Goodbye everyone"
+  }
+]
