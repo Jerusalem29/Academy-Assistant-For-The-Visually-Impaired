@@ -1,165 +1,78 @@
-# AI-Powered Academic Assistant for Visually Impaired Students
+# 🎓 AI Academic Assistant for Visually Impaired Students
 
-A comprehensive web application designed to assist visually impaired students at Haramaya University with their academic journey through voice-controlled interactions and AI-powered guidance.
-
-## Key Features
-
-### 🎤 Speech-to-Text and Text-to-Speech
-- **Voice Input**: Convert spoken words to text for seamless interaction
-- **Voice Output**: Text-to-speech capabilities for audio feedback
-- **Real-time Transcription**: Live speech recognition with visual feedback
-- **Multiple Voice Options**: Customizable voice settings for better accessibility
-
-### 🤖 AI-Based Chat Interface
-- **Academic Guidance**: Context-aware AI responses for academic queries
-- **Course Information**: Access to course schedules, assignments, and deadlines
-- **Study Assistance**: Personalized learning support and recommendations
-- **24/7 Availability**: Always-on AI assistant for immediate help
-
-### 🎯 Command-Level Voice Control
-- **Voice Commands**: Hands-free control through natural language commands
-- **Smart Recognition**: Intelligent command parsing and execution
-- **Custom Commands**: Personalizable voice triggers for specific actions
-- **Navigation Control**: Voice-based interface navigation
-
-### ⏰ Smart Reminders System
-- **Academic Deadlines**: Track assignment due dates and exam schedules
-- **Priority Management**: Organize tasks by importance and urgency
-- **Voice Notifications**: Audio alerts for upcoming deadlines
-- **Category Organization**: Separate reminders for assignments, exams, and meetings
-
-### ♿ Accessibility Features
-- **Screen Reader Support**: Full compatibility with screen reading software
-- **High Contrast Mode**: Enhanced visual contrast for better visibility
-- **Adjustable Font Sizes**: Scalable text for comfortable reading
-- **Keyboard Navigation**: Complete keyboard control for all features
-- **Reduced Motion**: Optimized animations for users with vestibular disorders
-
-## Technology Stack
-
-- **Frontend**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with custom accessibility components
-- **Icons**: Heroicons for consistent, accessible iconography
-- **Speech APIs**: Web Speech API for voice recognition and synthesis
-- **Build Tool**: Create React App with modern development setup
-
-## Getting Started
-
-### Prerequisites
-- Node.js 16+ installed
-- Modern web browser with speech API support
-- Microphone access for voice input
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd academic-assistant
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Usage Guide
-
-### Voice Commands
-- **"Open chat"** - Navigate to AI chat interface
-- **"Show reminders"** - Display your reminders and tasks
-- **"View schedule"** - Check your class schedule
-- **"Add assignment"** - Create a new assignment reminder
-- **"Increase font size"** - Make text larger for better visibility
-- **"Read last message"** - Read the last chat message aloud
-
-### Chat Interface
-- Click the microphone button to start voice input
-- Type messages for text-based interaction
-- Enable auto-speak for automatic audio responses
-- Use keyboard shortcuts for quick navigation
-
-### Reminder Management
-- Add reminders with voice or text input
-- Set priority levels (High, Medium, Low)
-- Categorize by type (Assignment, Exam, Meeting, Other)
-- Track completion status and due dates
-
-## Browser Compatibility
-
-This application works best with modern browsers that support the Web Speech API:
-- ✅ Chrome 25+
-- ✅ Edge 79+
-- ✅ Safari 14.1+
-- ❌ Firefox (limited support)
-
-## Accessibility Standards
-
-The application follows WCAG 2.1 AA guidelines:
-- Semantic HTML5 structure
-- ARIA labels and roles
-- Keyboard accessibility
-- Screen reader compatibility
-- High contrast support
-- Focus management
-
-## Development
-
-### Project Structure
-```
-src/
-├── components/          # React components
-│   ├── ChatInterface.tsx
-│   ├── CommandPanel.tsx
-│   ├── ReminderSystem.tsx
-│   └── VoiceButton.tsx
-├── hooks/              # Custom React hooks
-│   ├── useSpeechRecognition.ts
-│   └── useTextToSpeech.ts
-├── types/              # TypeScript type definitions
-│   └── index.ts
-├── App.tsx             # Main application component
-├── index.tsx           # Application entry point
-└── index.css           # Global styles with Tailwind
-```
-
-### Available Scripts
-- `npm start` - Start development server
-- `npm build` - Build for production
-- `npm test` - Run tests
-- `npm run eject` - Eject from Create React App
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For technical support or accessibility inquiries, please contact:
-- Email: support@haramaya.edu.et
-- Phone: +251-XXX-XXXX-XXXX
-
-## Acknowledgments
-
-- Haramaya University for supporting accessible education
-- The Web Speech API community for voice recognition tools
-- Open source contributors making education more accessible
+An intelligent, voice-first web application developed to support visually impaired students at **Haramaya University** with their academic journey. This system combines speech recognition, AI-powered guidance, and accessibility-first design to create an inclusive learning environment.
 
 ---
 
-**Note**: This application is designed specifically for visually impaired students and incorporates extensive accessibility features. Please ensure microphone permissions are granted for full functionality.
+## 🌟 Overview
+
+This application empowers students with visual impairments by providing:
+- **Voice-controlled navigation** throughout the platform
+- **Intelligent academic assistance** powered by AI
+- **Multilingual support** for Afaan Oromo, Amharic, and English
+- **Accessibility-first** design following WCAG 2.1 AA standards
+
+---
+
+## ✨ Core Features
+
+### 🎤 Voice Interaction System
+- **Speech-to-Text**: Convert spoken words to text for hands-free input
+- **Text-to-Speech**: Listen to responses with customizable voice options
+- **Real-time Transcription**: Visual feedback for voice recognition
+- **Multiple Voice Settings**: Personalize audio feedback to your preference
+
+### 🤖 AI Chat Assistant
+- **Academic Guidance**: Get context-aware answers to your questions
+- **Course Management**: Access schedules, assignments, and deadlines
+- **Personalized Support**: Receive tailored study recommendations
+- **24/7 Availability**: Get help whenever you need it
+
+### 🎯 Voice Command Center
+- **Natural Language Control**: Use everyday phrases to navigate
+- **Smart Command Recognition**: Intelligent parsing of your requests
+- **Custom Triggers**: Create personalized voice shortcuts
+- **Hands-free Navigation**: Control everything with your voice
+
+### ⏰ Smart Reminder System
+- **Deadline Tracking**: Never miss assignment or exam dates
+- **Priority Organization**: Sort tasks by importance and urgency
+- **Voice Alerts**: Audio notifications for upcoming events
+- **Category Management**: Organize reminders by type (assignments, exams, meetings)
+
+### ♿ Accessibility Features
+- **Screen Reader Compatibility**: Full support for assistive technologies
+- **High Contrast Mode**: Enhanced visibility for better readability
+- **Scalable Text**: Adjust font sizes for comfortable viewing
+- **Keyboard Navigation**: Complete control without a mouse
+- **Reduced Motion**: Optimized animations for vestibular sensitivity
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18 with TypeScript |
+| **Styling** | Tailwind CSS with accessible components |
+| **Icons** | Heroicons for consistent, accessible iconography |
+| **Speech** | Web Speech API (recognition & synthesis) |
+| **Build** | Create React App |
+| **AI/ML** | Python with Whisper for multilingual speech recognition |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js** 16 or higher
+- **Modern web browser** with speech API support (Chrome, Edge, or Safari)
+- **Microphone access** for voice input
+- **Python 3.8+** (for backend ML components)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/Academy-Assistant-For-The-Visually-Impaired.git
+   cd Academy-Assistant-For-The-Visually-Impaired
